@@ -49,7 +49,7 @@ def addBoundingBoxesFromCsv(image: cv.Mat, filepath: str, thickness: int) -> cv.
     The image parameter specifies the image to be modified.
     The filepath must contain the path of the csv file that contains the bounding box predictions for this image.
     '''
-    csvPath = os.path.splitext(filepath)[0]+"_suppressed.csv"
+    csvPath = os.path.splitext(filepath)[0]+"_prediction.csv"
     boundingBoxesDataframe = pd.read_csv(csvPath, delimiter=",", header=0)
 
     for index, boundingBox in boundingBoxesDataframe.iterrows():
