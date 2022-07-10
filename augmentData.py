@@ -236,7 +236,7 @@ def performDataAugmentation(directory: str, categories: list[str], augmentations
     Performs various data augmentation steps and creates a corresponding folder structure.
 
     @directory - The folder which contains the data that should be augmented.\n
-    @categories - The classes for which the augmentations should be performed.\n\t\t Valid values: 'background', 'ponds', 'pools', 'solar' or 'trampoline'. \n
+    @categories - The classes for which the augmentations should be performed.\n\t\t Valid values: 'background', 'pond', 'pool', 'solar' or 'trampoline'. \n
     @augmentations - The augmentations that should be performed.\n\t\t Valid values: 'rotate_images', 'move_images', 'zoom_images', 'change_brightness', 'combine_augmentations'. 
     '''
     createFolderStructure()
@@ -285,7 +285,7 @@ def createFolderStructure():
         'training_patches_left',
         'training_patches_rotation',
         'training_patches_zoom']
-    subfolders = ["background", "solar", "ponds", "trampoline", "pools"]
+    subfolders = ["background", "solar", "pond", "trampoline", "pool"]
 
     for d in new_directories:
         for folder in subfolders:

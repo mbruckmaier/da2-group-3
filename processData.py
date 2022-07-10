@@ -95,7 +95,7 @@ def createPredictionsForImage(filepath: str, convnet: keras.Model, stepSize: int
     print("Running patches through the Convnet...")
     prediction_start_time = time.time()
     predicted_labels_encoded = pd.DataFrame(convnet.predict(preprocessed_patches), columns=[
-                                            "background", "ponds", "pools", "solar", "trampoline"])
+                                            "background", "pond", "pool", "solar", "trampoline"])
     #print("Predicted labels encoded:", predicted_labels_encoded.head)
     predicted_labels = predicted_labels_encoded.idxmax(1)
     #print("Predicted labels decoded:", predicted_labels.head)
@@ -104,7 +104,7 @@ def createPredictionsForImage(filepath: str, convnet: keras.Model, stepSize: int
           time.time()-prediction_start_time, " seconds.\n")
 
     highest_scores = predicted_labels_encoded[[
-        "background", "ponds", "pools", "solar", "trampoline"]].max(axis=1)
+        "background", "pond", "pool", "solar", "trampoline"]].max(axis=1)
 
     #print("Shape of patch_coordinates: ", patch_coordinates.shape)
 
