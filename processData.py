@@ -148,7 +148,7 @@ def nonMaxSuppressBoundingBoxes(path: str, iou_threshold: float, score_threshold
         filepath = os.fsdecode(file)
 
         # Skip files that are not csv files or that contain "suppressed" in their name
-        if(not(filepath.endswith(".csv")) or ("suppressed" in filepath)):
+        if(not(filepath.endswith(".csv")) or not("prediction" in filepath)):
             continue
 
         print("Creating suppressed csv for file: ", filepath, "...")
