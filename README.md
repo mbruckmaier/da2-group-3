@@ -36,6 +36,7 @@ output layer with five nodes for each label and a softmax activation function to
 output final predictions for probabilities for each class.
 
 ![vgg16-1-e1542731207177](https://user-images.githubusercontent.com/44417612/178339854-60d72da4-e7ab-4b0d-91d2-23603a5be863.png)
+</br>
 A classical VGG-16 architecture[1]
 
 </br>
