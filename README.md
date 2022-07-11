@@ -36,7 +36,7 @@ output layer with five nodes for each label and a softmax activation function to
 output final predictions for probabilities for each class.
 
 ![vgg16-1-e1542731207177](https://user-images.githubusercontent.com/44417612/178339854-60d72da4-e7ab-4b0d-91d2-23603a5be863.png)
-
+A classical VGG-16 architecture[1]
 
 </br>
 
@@ -70,9 +70,12 @@ intersection-over-union threshold of zero and a score threshold of [INSERT].
 
 </br>
 
-## Individual Contributions
+### Individual Contributions
 - Julian Granitza: CNN Setup and Assessment, Performance Tests, Poster Content, Additional Data Aquisition
 - Jan-Ole van Wüllen: CNN Setup and Assessment, Code Integration, Performance Tests, README.md, Poster Content
 - Mathias Bruckmaier: CNN Setup and Assessment, Non-max Suppression, Sliding-Window Forecast, Additional Data Aquisition,Label Classification of additional solar panels, Code Integration, Performance Tests, README.md, Poster Content
 - Vuk Stojkovic: Label Classification of additional ponds and pools, Setup of Latex Template
 - Alexander Wesenberg: Google Colab Setup, Data Augmentation, Code Integration, Performance Tests, README.md, Poster Content
+
+## References
+[1| 
