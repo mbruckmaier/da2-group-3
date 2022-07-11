@@ -16,11 +16,11 @@ decided on searching for additional labelled data online.
 ## Initialization of working environment
 
 
-In order to run the object detection algorithm, you will need to set up a Google Account. The data that is necesssary for for the model training needs to be shared with your personal Google colab account. When your account has the necessary rights for the file, you will find the shared folder, as usual, in the shared files part of Google Drive. In order to load the necessary data, you will have to load the shared folder into the personal google MyDrive. 
+In order to run the object detection algorithm, you will need to set up a Google Account. The data that is necesssary for for the model training needs to be shared with your personal Google colab account. Therefore, please send your Google mail adress with us, if you would like to have access to the data. When your account has the necessary rights for the file, you will find the shared folder, as usual, in the shared files part of Google Drive. In order to load the necessary data, you will have to load the shared folder into the personal google MyDrive. 
 
 The first part of the notebook includes the mounting of the Drive into the runtime environment. Further, you will need to intall the opencv module into the google colab environment.
 
-
+</br>
 
 ## Convolutional Neural Network
 The neural network would be the essential part of the entire project. For creating
@@ -35,7 +35,10 @@ the last layer of the models and replaced them with a simple fully connected
 output layer with five nodes for each label and a softmax activation function to
 output final predictions for probabilities for each class.
 
+![vgg16-1-e1542731207177](https://user-images.githubusercontent.com/44417612/178339854-60d72da4-e7ab-4b0d-91d2-23603a5be863.png)
 
+
+</br>
 
 ## Procedure
 As a first step, we had to increase the amount of training data in order to train a
@@ -53,4 +56,4 @@ there is a need to apply a non-max suppression algorithm in order to combine
 overlapping detections of objects to one single detection. Hereby, we used a
 intersection-over-union threshold of zero and a score threshold of [INSERT].
 
-
+</br>
