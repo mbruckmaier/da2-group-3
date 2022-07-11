@@ -78,7 +78,7 @@ Our VGG-16 based model scores up to 66.6\% on the validation images. On average 
 ### Individual Contributions
 - Julian Granitza: Organitional Contributions, CNN Setup and Assessment, Performance Tests, Poster Content, Additional Data Aquisition
 - Jan-Ole van Wüllen:  Organitional Contributions, CNN Setup and Assessment, Code Integration, Performance Tests, README.md, Poster Content
-- Mathias Bruckmaier:  Organitional Contributions, CNN Setup and Assessment, Non-max Suppression, Sliding-Window Forecast, Additional Data Aquisition,Label Classification of additional solar panels, Code Integration, Performance Tests, README.md, Poster Content
+- Mathias Bruckmaier:  Organitional Contributions, CNN Setup and Assessment, Non-max Suppression, Sliding-Window Forecast, Additional Data Aquisition,Label Classification of additional solar panels, Code Integration, Performance Tests, README.md
 - Vuk Stojkovic: Label Classification of additional ponds and pools, Setup of Latex Template
 - Alexander Wesenberg: Organitional Contributions, Google Colab Setup, Data Augmentation, Code Integration, Performance Tests, README.md, Poster Content
 
