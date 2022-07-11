@@ -63,13 +63,13 @@ intersection-over-union threshold of zero and a score threshold of [INSERT].
 - Jan-Ole van Wüllen
 - Mathias Bruckmaier
 - Vuk Stojkovic
-- Alexander Wesenberg:
+- Alexander Wesenberg
 
 </br>
 
 ## Individual Contributions
 - Julian Granitza: CNN, Code Integration, Performance Tests, Poster Content, Additional Data Aquisition
 - Jan-Ole van Wüllen: CNN, Code Integration, Performance Tests, README.md, Poster Content
-- Mathias Bruckmaier: CNN, Non-max Suppression, Sliding-Window Forecast, Additional Data Aquisition, Code Integration, Performance Tests, README.md, Poster Content
-- Vuk Stojkovic: Label Classification and Setup of Latex Template
+- Mathias Bruckmaier: CNN, Non-max Suppression, Sliding-Window Forecast, Additional Data Aquisition,Label Classification of additional solar panels, Code Integration, Performance Tests, README.md, Poster Content
+- Vuk Stojkovic: Label Classification of additional ponds and pools, Setup of Latex Template
 - Alexander Wesenberg: Google Colab Setup, Data Augmentation, Code Integration, Performance Tests, README.md, Poster Content
