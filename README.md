@@ -13,6 +13,17 @@ decided on searching for additional labelled data online.
 </br>
 
 
+
+## Convolutional Neural Network
+
+
+## Initialization of working environment
+- Google Colab
+- Data structure
+- Load opencv into google colab
+
+
+
 ## Procedure
 As a first step, we had to increase the amount of training data in order to train a
 better and more sophisticated model. We used new, publicly available data-sets
@@ -30,20 +41,3 @@ overlapping detections of objects to one single detection. Hereby, we used a
 intersection-over-union threshold of zero and a score threshold of [INSERT].
 
 
-
-
-
-## Convolutional Neural Network
-
-
-## Initialization of working environment
-- Google Colab
-- Data structure
-- Load opencv into google colab
-
-
-
-## 
-
-
-#
