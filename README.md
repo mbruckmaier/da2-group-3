@@ -1,4 +1,4 @@
-# da2-group-3
+# CASE STUDY - Object Detection (Task II)
 
 
 
