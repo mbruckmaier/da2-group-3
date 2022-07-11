@@ -20,6 +20,8 @@ In order to run the object detection algorithm, you will need to set up a Google
 
 The first part of the notebook includes the mounting of the Drive into the runtime environment. This will enable you to import the necessary Python files. Further, you will need to install the opencv module into the google colab environment. Afterwards, you will be able to run the create_predictions(). 
 
+Using the GPU will improve the performance.
+
 </br>
 
 ## Convolutional Neural Network
