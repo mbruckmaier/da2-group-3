@@ -59,17 +59,17 @@ intersection-over-union threshold of zero and a score threshold of [INSERT].
 </br>
 
 ## Contributors
-Julian Granitza
-Jan-Ole van Wüllen
-Mathias Bruckmaier
-Vuk Stojkovic
-Alexander Wesenberg:
+- Julian Granitza
+- Jan-Ole van Wüllen
+- Mathias Bruckmaier
+- Vuk Stojkovic
+- Alexander Wesenberg:
 
 </br>
 
 ## Individual Contributions
-Julian Granitza:
-Jan-Ole van Wüllen:
-Mathias Bruckmaier:
-Vuk Stojkovic:
-Alexander Wesenberg:
+- Julian Granitza:
+- Jan-Ole van Wüllen:
+- Mathias Bruckmaier:
+- Vuk Stojkovic:
+- Alexander Wesenberg:
