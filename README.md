@@ -68,7 +68,7 @@ intersection-over-union threshold of zero and a score threshold of [INSERT].
 </br>
 
 ## Individual Contributions
-- Julian Granitza: CNN Setup and Assessment, Code Integration, Performance Tests, Poster Content, Additional Data Aquisition
+- Julian Granitza: CNN Setup and Assessment, Performance Tests, Poster Content, Additional Data Aquisition
 - Jan-Ole van Wüllen: CNN Setup and Assessment, Code Integration, Performance Tests, README.md, Poster Content
 - Mathias Bruckmaier: CNN Setup and Assessment, Non-max Suppression, Sliding-Window Forecast, Additional Data Aquisition,Label Classification of additional solar panels, Code Integration, Performance Tests, README.md, Poster Content
 - Vuk Stojkovic: Label Classification of additional ponds and pools, Setup of Latex Template
