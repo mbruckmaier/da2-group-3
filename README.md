@@ -23,6 +23,18 @@ The first part of the notebook includes the mounting of the Drive into the runti
 
 
 ## Convolutional Neural Network
+The neural network would be the essential part of the entire project. For creating
+a neural network, the Python package Tensorflow, kindly provided by Google, was
+used to create Keras-Models. At first, we tried to build a model from scratch, but
+after trying out multiple different combinations of layers and depth, we found out
+that the resulting f1 score on the given validation images was never higher than
+5%. Therefore, we focused on pretrained CNN image classifying models and
+tested four different models: VGG-16, ResNet50, InceptionV3 and EfficientNet.In
+each model, we used pretrained weights from the ImageNet dataset. We removed
+the last layer of the models and replaced them with a simple fully connected
+output layer with five nodes for each label and a softmax activation function to
+output final predictions for probabilities for each class.
+
 
 
 ## Procedure
