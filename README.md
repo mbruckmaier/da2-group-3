@@ -56,6 +56,9 @@ there is a need to apply a non-max suppression algorithm in order to combine
 overlapping detections of objects to one single detection. Hereby, we used a
 intersection-over-union threshold of zero and a score threshold of [INSERT].
 
+![da2process](https://user-images.githubusercontent.com/44417612/178347446-8c1737b1-d76c-468a-b40b-b98cd621c19b.png)
+
+
 </br>
 
 ## Contributors
