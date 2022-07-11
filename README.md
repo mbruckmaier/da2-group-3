@@ -57,6 +57,12 @@ intersection-over-union threshold of zero and a score threshold of [INSERT].
 Our VGG-16 based model scores up to 66.6\% on the validation images. On average we expect the model to score between 50\% and 65\%. Analyzing the confusion matrix after training the model and testing it on the validation set shows a few errors detecting ponds. This stems from the fact, that the original training set only contained 9 pond-labeled images. Augmenting the pond images improved the detection, but ponds were still the most error prone objects. 
 
 
+## Challenges
+- Google Colab RAM
+- Notebook Collaboration Cababilities
+
+
+
 </br>
 
 ## Contributors
