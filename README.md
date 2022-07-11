@@ -68,8 +68,8 @@ intersection-over-union threshold of zero and a score threshold of [INSERT].
 </br>
 
 ## Individual Contributions
-- Julian Granitza:
-- Jan-Ole van Wüllen:
-- Mathias Bruckmaier:
-- Vuk Stojkovic:
-- Alexander Wesenberg:
+- Julian Granitza: CNN, Code Integration, Performance Tests, Poster Content, Additional Data Aquisition
+- Jan-Ole van Wüllen:CNN, Code Integration, Performance Tests, README.md, Poster Content
+- Mathias Bruckmaier: Non-max Suppression, Sliding-Window Forecast,Additional Data Aquisition, Code Integration, Performance Tests, README.md, Poster Content
+- Vuk Stojkovic: Label Classification and Setup of Latex Template
+- Alexander Wesenberg: Data Augmentation, Code Integration, Performance Tests, README.md, Poster Content
