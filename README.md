@@ -78,4 +78,4 @@ intersection-over-union threshold of zero and a score threshold of [INSERT].
 - Alexander Wesenberg: Google Colab Setup, Data Augmentation, Code Integration, Performance Tests, README.md, Poster Content
 
 ## References
-[1| 
+[1] https: Top 4 Pre-Trained-Models for image classification,  https://www.analyticsvidhya.com/blog/2020/08/top-4-pre-trained-models-for-image-classification-with-python-code/
