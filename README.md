@@ -23,17 +23,7 @@ The first part of the notebook includes the mounting of the Drive into the runti
 </br>
 
 ## Convolutional Neural Network
-The neural network would be the essential part of the entire project. For creating
-a neural network, the Python package Tensorflow, kindly provided by Google, was
-used to create Keras-Models. At first, we tried to build a model from scratch, but
-after trying out multiple different combinations of layers and depth, we found out
-that the resulting f1 score on the given validation images was never higher than
-5%. Therefore, we focused on pretrained CNN image classifying models and
-tested four different models: VGG-16, ResNet50, InceptionV3 and EfficientNet.In
-each model, we used pretrained weights from the ImageNet dataset. We removed
-the last layer of the models and replaced them with a simple fully connected
-output layer with five nodes for each label and a softmax activation function to
-output final predictions for probabilities for each class.
+The neural network would be the essential part of the entire project. For creating a neural network, the Python package Tensorflow, kindly provided by Google, was used to create Keras-Models. At first, we tried to build a model from scratch, but after trying out multiple different combinations of layers and depth, we found out that the resulting f1 score on the given validation images was never higher than 5\%. Therefore, we focused on pretrained CNN image classifying models and tested four different models: VGG-16, ResNet50, InceptionV3 and EfficientNet.In each model, we used pretrained weights from the ImageNet dataset. We removed the last layer of the models and replaced them with a simple fully connected output layer with five nodes for each label and a softmax activation function to output final predictions for probabilities for each class. All the resulting models performed better than our own CNNs on the validation images and most f1-scores varied between 40\% and 60\%. Our final model uses the VGG-16 model.
 
 ![vgg16-1-e1542731207177](https://user-images.githubusercontent.com/44417612/178339854-60d72da4-e7ab-4b0d-91d2-23603a5be863.png)
 </br>
@@ -58,6 +48,13 @@ overlapping detections of objects to one single detection. Hereby, we used a
 intersection-over-union threshold of zero and a score threshold of [INSERT].
 
 ![da2process](https://user-images.githubusercontent.com/44417612/178347446-8c1737b1-d76c-468a-b40b-b98cd621c19b.png)
+
+
+</br>
+
+
+## Results
+Our VGG-16 based model scores up to 66.6\% on the validation images. On average we expect the model to score between 50\% and 65\%. Analyzing the confusion matrix after training the model and testing it on the validation set shows a few errors detecting ponds. This stems from the fact, that the original training set only contained 9 pond-labeled images. Augmenting the pond images improved the detection, but ponds were still the most error prone objects. 
 
 
 </br>
