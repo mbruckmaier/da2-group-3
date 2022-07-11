@@ -8,6 +8,7 @@ import pandas as pd
 import os
 import numpy as np
 import loadAndStoreData
+from keras.applications.inception_v3 import preprocess_input
 
 
 def encodeLabels(labels):
@@ -85,9 +86,14 @@ def createPredictionsForImage(filepath: str, convnet: keras.Model, stepSize: int
             [y_upper_left, x_upper_left, y_lower_right, x_lower_right])
         counter += 1
 
-    print("Finished preprocessing of the patches.")
     preprocessed_patches = np.array(preprocessed_patches)
+
+    # Only necessary for inceptionV3
+    # preprocessed_patches = preprocess_input(preprocessed_patches)
+
     patch_coordinates = np.array(patch_coordinates)
+    print("Finished preprocessing of the patches.")
+
     #print("Shape of preprocessed patches: ", preprocessed_patches.shape)
     #print("Shape of patch coordinates: ", patch_coordinates.shape, "\n")
 
