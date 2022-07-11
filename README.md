@@ -60,6 +60,7 @@ Our VGG-16 based model scores up to 66.6\% on the validation images. On average 
 ## Challenges
 - Google Colab RAM
 - Notebook Collaboration Cababilities
+- Overfitting Prevention
 
 
 
