@@ -13,15 +13,16 @@ decided on searching for additional labelled data online.
 </br>
 
 
+## Initialization of working environment
+
+
+In order to run the object detection algorithm, you will need to set up a Google Account. The data that is necesssary for for the model training needs to be shared with your personal Google colab account. When your account has the necessary rights for the file, you will find the shared folder, as usual, in the shared files part of Google Drive. In order to load the necessary data, you will have to load the shared folder into the personal google MyDrive. 
+
+The first part of the notebook includes the mounting of the Drive into the runtime environment. Further, you will need to intall the opencv module into the google colab environment.
+
+
 
 ## Convolutional Neural Network
-
-
-## Initialization of working environment
-- Google Colab
-- Data structure
-- Load opencv into google colab
-
 
 
 ## Procedure
