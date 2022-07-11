@@ -42,10 +42,10 @@ data-set into a training and a validation set. The purpose of this split is only
 evaluate the initial classification performance of the neural network. For the
 actual detection model that is used on large satellite images, we will use a model
 that is fitted on both, the training and the validation data. To detect the images, a
-sliding-window approach with a step size of [INSERT] pixels was used. Afterwards,
+sliding-window approach with a step size of 64 pixels was used. Afterwards,
 there is a need to apply a non-max suppression algorithm in order to combine
 overlapping detections of objects to one single detection. Hereby, we used a
-intersection-over-union threshold of zero and a score threshold of [INSERT].
+intersection-over-union threshold of zero and a score threshold of 0.9.
 
 ![da2process](https://user-images.githubusercontent.com/44417612/178347446-8c1737b1-d76c-468a-b40b-b98cd621c19b.png)
 
