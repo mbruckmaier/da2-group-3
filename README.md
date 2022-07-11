@@ -16,9 +16,9 @@ decided on searching for additional labelled data online.
 ## Initialization of working environment
 
 
-In order to run the object detection algorithm, you will need to set up a Google Account. The data that is necesssary for for the model training needs to be shared with your personal Google colab account. Therefore, please send your Google mail adress with us, if you would like to have access to the data. When your account has the necessary rights for the file, you will find the shared folder, as usual, in the shared files part of Google Drive. In order to load the necessary data, you will have to load the shared folder into the personal google MyDrive. 
+In order to run the object detection algorithm, you will need to set up a Google Account. The data that is necesssary  for the model training needs to be shared with your personal Google Colab account. Therefore, please send your Google mail adress to us, if you would like to have access to the data. When your account has the necessary rights for the file, you will find the shared folder, as usual, in the shared files part of Google Drive. In order to load the necessary data, you will have to load the shared folder into the personal Google MyDrive. 
 
-The first part of the notebook includes the mounting of the Drive into the runtime environment. Further, you will need to intall the opencv module into the google colab environment.
+The first part of the notebook includes the mounting of the Drive into the runtime environment. This will enable you to import the necessary Python files. Further, you will need to install the opencv module into the google colab environment. Afterwards, you will be able to run the create_predictions(). 
 
 </br>
 
