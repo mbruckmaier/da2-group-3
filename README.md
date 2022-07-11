@@ -1,6 +1,13 @@
 # CASE STUDY - Object Detection (Task II)
 
-
+The case study consisted of an object detection task, where sample data was
+provided for training a convolutional neural network that would be able to detect
+trampolines, pools, ponds and solar roof applications within a satellite image.
+The situation in the beginning of the case study was data-sparse, meaning there
+was not a lot of data available for training a model. In particular, there only were
+nine example images for ponds. Data augmentation would be necessary to create
+a capable model for solving the task at hand and in addition to this, the group
+decided on searching for additional labelled data online.
 
 
 ## Procedure
