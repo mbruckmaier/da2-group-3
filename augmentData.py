@@ -231,7 +231,7 @@ def combineAllSteps(directory, folder):
                       "/" + filename + "_comb" + ".png")
 
 
-def performDataAugmentation(directory: str, categories: list[str], augmentations: list[str]):
+def performDataAugmentation(directory: str, categories, augmentations):
     '''
     Performs various data augmentation steps and creates a corresponding folder structure.
 
