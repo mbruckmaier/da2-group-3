@@ -16,7 +16,7 @@ decided on searching for additional labelled data online.
 ## Initialization of working environment
 
 
-In order to run the object detection algorithm, you will need to set up a Google Account. The data that is necesssary  for the model training needs to be shared with your personal Google Colab account. Therefore, please send your Google mail adress to us, if you would like to have access to the data. When your account has the necessary rights for the file, you will find the shared folder, as usual, in the shared files part of Google Drive. In order to load the necessary data, you will have to load the shared folder into the personal Google MyDrive. 
+In order to run the object detection algorithm, you will need to set up a Google Account. The data that is necesssary for the model training needs to be shared with your personal Google Colab account. Therefore, please send your Google mail address to us, if you would like to have access to the data. When your account has the necessary rights for the file, you will find the shared folder, as usual, in the shared files part of Google Drive. In order to load the necessary data, you will have to load the shared folder into the personal Google MyDrive. 
 
 The first part of the notebook includes the mounting of the Drive into the runtime environment. This will enable you to import the necessary Python files. Further, you will need to install the opencv module into the google colab environment. Afterwards, you will be able to run the create_predictions(). 
 
@@ -58,9 +58,9 @@ Our VGG-16 based model scores up to 66.6\% on the validation images. On average 
 
 
 ## Challenges
-- Google Colab RAM
-- Notebook Collaboration Cababilities
-- Overfitting Prevention
+- Google Colab RAM: The limit of 12GB RAM in the Google Colab was quite challenging. This was particular in issue, when trying to reduce the step size of the sliding-window prediction approach.
+- Notebook Collaboration Capabilities: The merging capabilities are not as sophisticated as normal python files. This makes collaboration harder. 
+- Overfitting Prevention: The initially small dataset in comparison with very complex models have the risk of overfitting. Finding ways to encounter this was challenging. 
 
 
 
